@@ -55,7 +55,7 @@ def form(cdeP):
     browser.find_element_by_class_name('btn').click()
     time.sleep(4)
     #----------------------------------------------------------------------------------------------------
-    browser.save_screenshot("/home/robin/mcdcodes/"+cdeP + ".png")
+    browser.save_screenshot("/home/robin/pCloudDrive/PC/mcdxn/pending/"+cdeP + ".png")
     form(cde(cdeP))
 
 def cde(str):
